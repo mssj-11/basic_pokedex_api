@@ -1,0 +1,52 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.poke-api{
+    background: #fefefe;
+}
+
+.poke-api h1{
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.pokedex-container{
+    justify-content: center;
+    text-align: center;
+}
+
+.pokedex-container input{
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.pokedex-container img{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.pokedex-container button{
+    font-size: 20px;
+    background: black;
+    color: #fff;
+    border: none;
+    padding: 7px;
+    border-radius: 15px;
+}
+
+.pokedex-container button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
